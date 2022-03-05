@@ -1,5 +1,5 @@
  .container {
-     margin-bottom: 80px;
+     margin-bottom: 100px;
  }
  
  .gray-bg {
@@ -18,4 +18,63 @@
      border-radius: 8px;
      padding: 9px 25px;
      cursor: pointer;
+ }
+ 
+ .cat01,
+ .cat02,
+ .cat03 {
+     padding: 10px 20px;
+     border-radius: 10px;
+ }
+ 
+ .cat01 {
+     background: linear-gradient(90deg, rgba(255, 137, 34, 1) 0%, rgba(251, 172, 24, 1) 0%, rgba(255, 108, 17, 1) 84%);
+ }
+ 
+ .cat02 {
+     background: linear-gradient(90deg, rgba(255, 34, 228, 1) 0%, rgba(212, 84, 206, 1) 0%, rgba(244, 67, 255, 1) 100%, rgba(236, 27, 158, 1) 100%);
+ }
+ 
+ .cat03 {
+     background: linear-gradient(90deg, rgba(255, 34, 228, 1) 0%, rgba(31, 46, 187, 1) 0%, rgba(79, 70, 255, 1) 100%, rgba(236, 27, 158, 1) 100%);
+ }
+ 
+ .catagories h1 {
+     color: #fff;
+ }
+ 
+ .catagories img {
+     width: 100px;
+ }
+ 
+ .shoes h1 {
+     text-align: center;
+     margin-bottom: 60px;
+ }
+ 
+ .backpack h1 {
+     text-align: center;
+     margin-bottom: 40px;
+ }
+ 
+ .card {
+     border: none;
+     box-shadow: 2px 4px 9px -1px rgba(0, 0, 0, 0.47);
+ }
+ 
+ .card-footer {
+     background-color: #fff;
+     border-top: none;
+ }
+ 
+ .subscribe {
+     height: 300px;
+ }
+ 
+ .subscribe h6 {
+     color: gray;
+ }
+ 
+ footer {
+     text-align: center;
  }
